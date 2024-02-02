@@ -1,0 +1,7 @@
+{
+  "extends": ["./typescript/src/tsconfig.json", "./typescript/src/strict.json"],
+  "compilerOptions": {
+    "incremental": false,
+    "noEmit": true
+  }
+}

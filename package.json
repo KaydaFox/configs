@@ -1,0 +1,21 @@
+{
+  "name": "@kaydafox/configs",
+  "version": "1.0.0",
+  "author": "KaydaFox",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./*"
+  ],
+  "packageManager": "yarn@4.1.0",
+  "devDependencies": {
+    "@commitlint/cli": "^18.6.0",
+    "@commitlint/config-conventional": "^18.6.0",
+    "typescript": "^5.3.3"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}

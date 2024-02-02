@@ -1,0 +1,19 @@
+# Ignore the usual blackhole that is npm packages and editor configs
+node_modules/
+.vs/
+.idea/
+*.iml
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore package locks
+package-lock.json
