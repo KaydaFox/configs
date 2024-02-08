@@ -1,0 +1,27 @@
+{
+  "name": "@kaydafox/prettier-config",
+  "version": "1.0.0",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "description": "The main prettier config I use for prettier",
+  "author": "KaydaFox",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.mjs"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc -b src"
+  },
+  "dependencies": {
+    "prettier": "^3.2.5"
+  },
+  "packageManager": "yarn@4.1.0",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

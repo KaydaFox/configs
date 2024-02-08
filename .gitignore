@@ -17,3 +17,6 @@ node_modules/
 
 # Ignore package locks
 package-lock.json
+
+# Build stuff
+dist/

@@ -5,12 +5,14 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "./*"
+    "prettier",
+    "typescript"
   ],
   "packageManager": "yarn@4.1.0",
   "devDependencies": {
     "@commitlint/cli": "^18.6.0",
     "@commitlint/config-conventional": "^18.6.0",
+    "@types/node": "^20.11.16",
     "typescript": "^5.3.3"
   },
   "commitlint": {

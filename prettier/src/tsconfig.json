@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "../../typescript/src/tsconfig.json",
+    "../../typescript/src/strict.json"
+  ],
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "../dist",
+    "incremental": false,
+    "declaration": false,
+    "sourceMap": false,
+    "declarationMap": false,
+    "module": "Node16"
+  },
+  "include": ["."]
+}
