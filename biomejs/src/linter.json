@@ -1,0 +1,33 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.4.0/schema.json",
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": {
+        "useShorthandArrayType": "off",
+        "noNamespace": "off",
+        "noNonNullAssertion": "off",
+        "useAsConstAssertion": "error"
+      },
+      "complexity": {
+        "noBannedTypes": "error",
+        "useFlatMap": "warn",
+        "noStaticOnlyClass": "error",
+        "noUselessConstructor": "error"
+      },
+      "suspicious": {
+        "noEmptyInterface": "off",
+        "noExplicitAny": "off",
+        "noExtraNonNullAssertion": "error",
+        "noConfusingVoidType": "error",
+        "noMisleadingInstantiator": "error",
+        "noUnsafeDeclarationMerging": "off"
+      },
+      "correctness": {
+        "noUnusedVariables": "off"
+      }
+    },
+    "ignore": ["**/dist", "**/node_modules"]
+  }
+}

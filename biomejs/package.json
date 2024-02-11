@@ -1,0 +1,33 @@
+{
+  "name": "@kaydafox/biome-config",
+  "version": "1.0.0",
+  "description": "My main config for biomejs",
+  "main": "src/biome.json",
+  "author": "KaydaFox",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./src/biome.json",
+      "require": "./src/biome.json"
+    },
+    "./base": {
+      "import": "./src/biome.json",
+      "require": "./src/biome.json"
+    },
+    "./no-format": {
+      "import": "./src/no-format/biome.json",
+      "require": "./src/no-format/biome.json"
+    },
+    "./no-lint": {
+      "import": "./src/no-lint/biome.json",
+      "require": "./src/no-lint/biome.json"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "sideEffects": false,
+  "dependencies": {
+    "@biomejs/biome": "^1.5.3"
+  }
+}

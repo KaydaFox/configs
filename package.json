@@ -6,7 +6,8 @@
   "private": true,
   "workspaces": [
     "prettier",
-    "typescript"
+    "typescript",
+    "biomejs"
   ],
   "packageManager": "yarn@4.1.0",
   "devDependencies": {
